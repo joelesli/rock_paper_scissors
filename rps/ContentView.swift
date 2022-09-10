@@ -86,7 +86,7 @@ struct ContentView: View {
     
     func restartGame() {
         score = 0
-        turn = 1
+        turn = 0
         askQuestion()
     }
     
